@@ -1,0 +1,94 @@
+.advantages {
+    position: relative;
+    padding-bottom: 100px;
+    &__title {
+        font-size: 36px;
+        font-weight: 500;
+        font-family: 'DrukWideCyr-Medium';
+        color: #fff;
+        text-transform: uppercase;
+        opacity: 0;
+        span {
+            font-weight: 500;
+            font-family: 'DrukWideCyr-Medium';
+            background: linear-gradient(180deg, #FFAF59 0%, #EC9647 0.01%, #E86223 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+    &__wrap {
+        margin-top: 50px;
+        display: grid;
+        grid-template: 1fr 1fr / 285px 285px 285px 285px;
+        row-gap: 30px;
+        justify-items: stretch;
+        justify-content: space-between;
+        &__item {
+            width: 285px;
+            height: 258px;
+            text-align: center;
+            padding: 2px;
+            background: linear-gradient(180deg, #FFAF59 0%, #EC9647 0.01%, #E86223 100%);
+            opacity: 0;
+            &__inner {
+                height: 100%;
+                background-color: #1F1F1F;
+                &__icon {
+                    margin-bottom: 20px;
+                }
+                .icon-safety {
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 50px;
+                }
+                .icon-tax {
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 50px;
+                }
+                .icon-high-service {
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 50px;
+                }
+                .icon-loyalty {
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 50px;
+                }
+                .icon-fast {
+                    width: 110px;
+                    height: 84px;
+                    margin-top: 63px;
+                }
+                .icon-comfortable {
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 50px;
+                }
+                .icon-confidentiality {
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 50px;
+                }
+                .icon-available {
+                    width: 90px;
+                    height: 90px;
+                    margin-top: 60px;
+                }
+                &__title {
+                    font-size: 24px;
+                    font-weight: 500;
+                    font-family: 'Inter-Medium';
+                    color: #fff;
+                    line-height: 29px;
+                }
+                .adv-title-iskl {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

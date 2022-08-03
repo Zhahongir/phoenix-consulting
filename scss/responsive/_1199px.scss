@@ -1,0 +1,114 @@
+@media screen and (max-width: 1199px) {
+    .container {
+         width: 960px;
+    }
+
+    .header__wrap__logo__icon {
+        width: 200px;
+        height: 41px;
+    }
+
+    .header__wrap__content__list__item:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .promo__wrap__content {
+        margin-top: 80px;
+    }
+
+    .promo__wrap__image {
+        width: 410px;
+        height: 410px;
+        margin-right: 0;
+    }
+
+    .promo__wrap__content__title {
+        font-size: 39px;
+        line-height: 47px;
+        width: 560px;
+    }
+
+    .promo__wrap__content__offer {
+        font-size: 22px;
+    }
+
+    .about__wrap__photo {
+        width: 450px;
+        height: 252px;
+    }
+
+    .about__wrap__content {
+        width: 450px;
+    }
+
+    .about__wrap__content__text {
+        font-size: 17px;
+    }
+
+    .advantages__wrap {
+        grid-template: 1fr 1fr / 285px 285px 285px;
+    }
+
+    .service__wrap__item {
+        width: 300px;
+    }
+
+    .service__wrap__item__header__number {
+        width: 70px;
+        height: 70px;
+    }
+
+    .service__wrap__item__header__divider {
+        width: 200px;
+    }
+
+    .service__wrap__item__text {
+        font-size: 21px;
+    }
+
+    .include__wrap__item__header__icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .include__wrap__item__text {
+        font-size: 22px;
+    }
+
+    .include__wrap__item__header__divider {
+        width: 180px;
+    }
+
+    .include__wrap {
+        grid-template: 1fr 1fr / 265px 297px 265px;
+    }
+
+    .include__wrap__item__header .hotel-icon {
+        margin-bottom: 1px;
+    }
+
+    .footer__wrap__logo__icon {
+        width: 240px;
+        height: 49px;
+    }
+
+    .contacts__wrap__content {
+        width: 480px;
+    }
+    
+    iframe {
+        width: 480px;
+    }
+
+    .footer__wrap__nav__list__item__link {
+        font-size: 14px;
+    }
+
+    .footer__rules {
+        font-size: 14px;
+    }
+
+    .tagline__wrap__content__text {
+        font-size: 39px;
+    }
+}

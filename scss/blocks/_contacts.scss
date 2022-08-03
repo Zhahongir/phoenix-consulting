@@ -1,0 +1,126 @@
+.contacts {
+    position: relative;
+    &__wrap {
+        width: 100%;
+        background-color: #2D2D2D;
+        display: flex;
+        justify-content: space-between;
+        &__content {
+            width: 600px;
+            padding: 35px 30px 58px 30px;
+            &__title {
+                font-size: 32px;
+                font-weight: 500;
+                color: #fff;
+                font-family: 'DrukWideCyr-Medium';
+                text-transform: uppercase;
+                line-height: 45px;
+                text-align: center;
+                background: linear-gradient(180deg, #FFAF59 0%, #EC9647 0.01%, #E86223 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+            }
+            &__inner {
+                &__text {
+                    margin-top: 25px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #fff;
+                    font-family: 'DrukWideCyr-Medium';
+                    line-height: 24px;
+                    letter-spacing: 0.05em; 
+                    text-transform: uppercase;
+                }
+                &__subtitle {
+                    font-size: 22px;
+                    margin-top: 5px;
+                    font-weight: 500;
+                    font-family: 'Inter-Medium';
+                    width: 311px;
+                }
+                &__phone {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 28px;
+                    &__icon {
+                        width: 32px;
+                        height: 32px;
+                        margin-right: 15px;
+                    }
+                    &__number {
+                        font-size: 22px;
+                        font-weight: 600;
+                        font-family: 'Inter-SemiBold';
+                        color: #fff;
+                        transition: 0.5s ease;
+                        &:hover {
+                            color: #EC9647;
+                        }
+                    }
+                }
+                &__email {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    &__icon {
+                        width: 32px;
+                        height: 32px;
+                        margin-right: 15px;
+                    }
+                    &__number {
+                        font-size: 22px;
+                        font-weight: 600;
+                        font-family: 'Inter-SemiBold';
+                        color: #fff;
+                        transition: 0.5s ease;
+                        &:hover {
+                            color: #EC9647;
+                        }
+                    }
+                }
+                &__social {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    &__icon {
+                        width: 32px;
+                        height: 32px;
+                        margin-right: 15px;
+                    }
+                    &__number {
+                        font-size: 22px;
+                        font-weight: 600;
+                        font-family: 'Inter-SemiBold';
+                        color: #fff;
+                        transition: 0.5s ease;
+                        &:hover {
+                            color: #EC9647;
+                        }
+                    }
+                }
+                &__address {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    &__icon {
+                        width: 25.6px;
+                        height: 32px;
+                        margin-right: 18.4px;
+                    }
+                    &__number {
+                        font-size: 18px;
+                        font-weight: 600;
+                        font-family: 'Inter-SemiBold';
+                        color: #fff;
+                        transition: 0.5s ease;
+                        &:hover {
+                            color: #EC9647;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

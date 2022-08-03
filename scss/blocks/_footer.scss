@@ -1,0 +1,74 @@
+.footer {
+    position: relative;
+    background-color: #101010;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        &__logo {
+            &__icon {
+                width: 293px;
+                height: 60px;
+            }
+            .privacy-logo {
+                width: 135px !important;
+                height: 64px !important;
+            }
+        }
+        &__nav {
+            display: flex;
+            &__list {
+                &:first-child {
+                    margin-right: 60px;
+                }
+                &__item {
+                    &__link {
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-family: 'DrukWideCyr-Medium';
+                        color: #fff;
+                        line-height: 19px;
+                        letter-spacing: 0.05em;
+                        transition: 0.5s ease;
+                        &:hover {
+                            color:#F79B38;
+                        }
+                    }
+                    &:not(:last-child) {
+                        margin-bottom: 7px;
+                    }
+                    
+                }
+            }
+        }
+        &__privacy {
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'DrukWideCyr-Medium';
+            color: #F79B38;
+            line-height: 19px;
+            letter-spacing: 0.05em;
+            transition: 0.5s ease;
+            &:hover {
+                color:#FFF;
+            }
+        }
+    }
+    &__rules {
+        color: #fff;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Inter-Medium';
+    }
+    &__since {
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Inter-Medium';
+    }
+}

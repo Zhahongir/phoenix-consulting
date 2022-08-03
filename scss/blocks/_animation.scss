@@ -1,0 +1,469 @@
+.header {
+    animation: header-animation 0.8s linear forwards;  
+}
+
+@keyframes header-animation {
+    0% {
+        transform: translateY(-100px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
+.promo__wrap__content__title {
+    animation: h1-animation 0.5s linear forwards;  
+}
+
+@keyframes h1-animation {
+    0% {
+        opacity: 0;
+        transform: translateX(-70px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateX(0);
+      }
+}
+
+.promo__wrap__content__offer {
+    animation: offer-animation 0.5s linear forwards; 
+}
+
+@keyframes offer-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+}
+
+.promo__wrap__image {
+    animation: promo-photo-animation 0.5s linear forwards; 
+}
+
+@keyframes promo-photo-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+}
+
+
+.about-photo {
+    animation: about-photo-animation 0.8s linear forwards; 
+}
+
+@keyframes about-photo-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.about-title {
+    animation: about-title-animation 1s linear forwards; 
+}
+
+@keyframes about-title-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.about-text {
+    animation: about-text-animation 1s linear forwards; 
+}
+
+@keyframes about-text-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.about-text-2 {
+    animation: about-text-2-animation 1s linear forwards; 
+}
+
+@keyframes about-text-2-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+
+.advantages-title {
+    animation: advantages-title-animation 0.8s linear forwards; 
+}
+
+@keyframes advantages-title-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+
+.adv-1-anim {
+    animation: adv-1-anim 0.8s linear forwards; 
+}
+
+@keyframes adv-1-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.adv-2-anim {
+    animation: adv-2-anim 0.8s linear forwards; 
+}
+
+@keyframes adv-2-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.adv-3-anim {
+    animation: adv-3-anim 0.8s linear forwards; 
+}
+
+@keyframes adv-3-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+
+.adv-4-anim {
+    animation: adv-4-anim 0.8s linear forwards; 
+}
+
+@keyframes adv-4-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.adv-5-anim {
+    animation: adv-5-anim 0.8s linear forwards; 
+}
+
+@keyframes adv-5-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.adv-6-anim {
+    animation: adv-6-anim 0.8s linear forwards; 
+}
+
+@keyframes adv-6-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.adv-7-anim {
+    animation: adv-7-anim 0.8s linear forwards; 
+}
+
+@keyframes adv-7-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.adv-8-anim {
+    animation: adv-8-anim 0.8s linear forwards; 
+}
+
+@keyframes adv-8-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+
+.service-title {
+    animation: service-title-animation 1s linear forwards; 
+}
+
+@keyframes service-title-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.num-1 {
+    animation: service-num-1-animation 0.5s linear forwards; 
+}
+
+@keyframes service-num-1-animation {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+} 
+
+.num-1-div {
+    animation: service-num-1-div-animation 0.7s linear forwards; 
+}
+
+@keyframes service-num-1-div-animation {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+} 
+
+.num-1-text {
+    animation: service-num-1-text-animation 0.9s linear forwards; 
+}
+
+@keyframes service-num-1-text-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+
+
+
+
+.num-2 {
+    animation: service-num-2-animation 0.9s linear forwards; 
+}
+
+@keyframes service-num-2-animation {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+} 
+
+.step-1-anim {
+    animation: step-1-animation 1s linear forwards; 
+}
+
+@keyframes step-1-animation {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+} 
+
+.step-2-anim {
+    animation: step-2-animation 1s linear forwards; 
+}
+
+@keyframes step-2-animation {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+} 
+
+.step-3-anim {
+    animation: step-3-animation 1s linear forwards; 
+}
+
+@keyframes step-3-animation {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+} 
+
+.num-2-text {
+    animation: service-num-2-text-animation 1.3s linear forwards; 
+}
+
+@keyframes service-num-2-text-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+.check-icon {
+    animation: check-icon-animation 1s linear forwards; 
+}
+
+@keyframes check-icon-animation {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+} 
+
+.check-text {
+    animation: check-text-animation 0.7s linear forwards; 
+}
+
+@keyframes check-text-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+          opacity: 1;
+        transform: translateY(0);
+      }
+} 
+
+
+.price-animation {
+    animation: price-animation 1s linear forwards; 
+}
+
+@keyframes price-animation {
+    0% {
+        opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+} 
+
+.price-text-animation {
+    animation: price-text-animation 1s linear forwards; 
+}
+
+@keyframes price-text-animation {
+    0% {
+        opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+} 
+
+.price-btn-animation {
+    animation: price-btn-animation 1s linear forwards; 
+}
+
+@keyframes price-btn-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+} 
+
+.include-title-animation {
+    animation: include-title-animation 1s linear forwards; 
+}
+
+@keyframes include-title-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+} 
